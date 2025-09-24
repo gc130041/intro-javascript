@@ -6,9 +6,43 @@
 <body>
 
     <h1>Ejercicios JavaScript</h1>
-    <p>
-        Ejecutar desde la consola Ctrl+shift+i
-    </p>
+
+    <hr>
+    <h2>Encontrar el número mayor</h2>
+    <input type="number" id="numero1" placeholder="Ingresa un número">
+    <input type="number" id="numero2" placeholder="Ingresa un segundo número">
+    <button onclick="encontrarMayor()">Encontrar Mayor</button>
+    <p id="resultadoMayor"></p>
+
+    <hr>
+    <h2>Verificar si tiene más de 5 caracteres</h2>
+    <input type="text" id="texto" placeholder="Ingresa una cadena de texto">
+    <button onclick="verificarLongitud()">Verificar Longitud</button>
+    <p id="resultadoLongitud"></p>
+
+    <hr>
+    <h2>Calcular Factorial</h2>
+    <input type="number" id="numeroFactorial" placeholder="Ingresa un número">
+    <button onclick="calcularFactorial()">Calcular Factorial</button>
+    <p id="resultadoFactorial"></p>
+
+    <hr>
+    <h2>Mostrar Números Pares del 2 al 20</h2>
+    <button onclick="mostrarPares()">Mostrar Pares</button>
+    <p id="resultadoPares"></p>
+
+    <hr>
+    <h2>Verificar si es Palíndromo</h2>
+    <input type="text" id="palindromo" placeholder="Ingresa una palabra">
+    <button onclick="verificarPalindromo()">Verificar</button>
+    <p id="resultadoPalindromo"></p>
+
+    <hr>
+    <h2>Encontrar la Cadena más Larga</h2>
+    <input type="text" id="cadenas" placeholder="Ingresa datos separados por coma">
+    <button onclick="ejecutarCadenaLarga()">Encontrar Cadena Más Larga</button>
+    <p id="arregloCadenas"></p>
+    <p id="resultadoCadenaLarga"></p>
 
     <script src="3-numero-mayor.js"></script>
     <script src="4-mayor5-caracteres.js"></script>
